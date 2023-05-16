@@ -6,13 +6,30 @@
   margin-bottom: 50px;
 }
 
-.app-title {
+.app-title.welcome {
   color: #9725B4;
   font-size: 40px;
   font-weight: 900;
   margin-top: 50px;
   margin-bottom: 150px;
 }
+
+.app-title {
+  color: #9725B4;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.page-title {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 
 button {
   background-color: #ddd;
@@ -24,7 +41,60 @@ button {
   margin-bottom: 50px;
 }
 
+.login-information {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 
+.text-entry {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  background-color: #e4e2ae;
+  border-radius: 10px;
+}
+
+.item-text {
+  font-size: 2rem;
+  background-color: #9725B4;
+  color: #ddd;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/* .item {
+  margin: 0;
+} */
+
+.d-inline {
+  display: flex;
+}
+
+.user-image {
+  width: 30px;
+  height: 30px;
+}
+
+button.logout {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 10px;
+}
+
+.unlocked {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+
+
+
+
+footer {
+  font-size: .3rem;
+}
 
 
 
